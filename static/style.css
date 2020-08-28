@@ -1303,6 +1303,7 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
   padding-bottom: 45px;
   border-bottom: 3px solid #0cb8b6;
   overflow: hidden;
+  background: #0cb8b6;
 }
 
 .top-bar-area .logo {
