@@ -1,24 +1,27 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block main %}
     <!-- Start Banner
     ============================================= -->
+    <br/>
+    <br/>
     <div class="banner-area">
         <div id="bootcarousel" class="carousel responsive-top-pad-110p text-large slide carousel-fade animate_text" data-ride="carousel">
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner carousel-zoom">
                 <div class="carousel-item active">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/2440x1578.png);"></div>
+                    <div class="slider-thumb bg-cover"></div>
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-9">
                                         <div class="content">
-                                            <h2 data-animation="animated slideInDown">Meet the <strong>Best Doctors</strong></h2>
+                                            <h2 data-animation="animated slideInDown">Doctor at <strong>Home</strong></h2>
                                             <p  data-animation="animated slideInLeft">
-                                                Preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture.
+                                                Transport Medical Service is a home healthcare service provider with a difference. The core purpose is to deliver 'Healthcare outside hospitals' in the right way. The main focus is on clinical excellence coupled with superior patient experience at an affordable cost.
                                             </p>
                                             <a data-animation="animated fadeInUp" class="btn btn-md btn-gradient" href="#">Discover More</a>
                                             <a data-animation="animated fadeInDown" class="btn btn-md btn-light effect" href="#">Contact Us <i class="fas fa-angle-right"></i></a>
@@ -30,17 +33,41 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/2440x1578.png);"></div>
+                    <div class="slider-thumb bg-cover" ></div>
                     <div class="box-table">
                         <div class="box-cell">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-9">
                                         <div class="content">
-                                            <h2 data-animation="animated slideInDown">Safe your <strong>Own Health</strong></h2>
+                                            <h2 data-animation="animated slideInDown">Family <strong>Doctor</strong></h2>
                                             <p  data-animation="animated slideInLeft">
-                                                Preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture.
+                                                Our family doctor visits the patient at home to review the health status, recommend diagnostics, formulate a treatment plan and refer them to a specialist, if required.
+
+The family doctor can suggest if a particular treatment is suitable for being given at home. They may refer the patient for home treatment whilst keeping them under supervision at all times.
                                             </p>
+
+                                            <a data-animation="animated fadeInUp" class="btn btn-md btn-gradient" href="#">Discover More</a>
+                                            <a data-animation="animated fadeInDown" class="btn btn-md btn-light effect" href="#">Contact Us <i class="fas fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider-thumb bg-cover" ></div>
+                    <div class="box-table">
+                        <div class="box-cell">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-9">
+                                        <div class="content">
+                                            <h2 data-animation="animated slideInDown">Who will <strong>benefit</strong></h2>
+                                            <li>Patients suffering from chronic diseases like diabetes, heart disease and hypertension</li>
+                                            <li>Patients suffering from seasonal flu, acute diseases, etc</li>
+                                            <li>Elderly and bedbound patients who find it difficult to travel to the hospital</li>
                                             <a data-animation="animated fadeInUp" class="btn btn-md btn-gradient" href="#">Discover More</a>
                                             <a data-animation="animated fadeInDown" class="btn btn-md btn-light effect" href="#">Contact Us <i class="fas fa-angle-right"></i></a>
                                         </div>
@@ -66,4 +93,108 @@
         </div>
     </div>
     <!-- End Banner -->
+    <br/>
+    <br/>
+    <!-- Star Health Tips
+    ============================================= -->
+    <div class="health-tips-area default-padding-bottom">
+        <div class="container">
+            <div class="health-tips-items">
+                <div class="row">
+                    <div class="col-lg left-info">
+                        <h2>Benefits of at-home doctor service</h2>
+                        <p>
+                         With today’s highly busy lifestyle at-home doctor service is becoming the norm of the day. Not only does the doctor on call service save time, it is also convenient to make a booking online.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg left-info">
+                        <h2>More benefits of doctor visit at home</h2>
+                        <p>
+                        <li>The consultation charges are lower or at par with the hospital visit charges, so you not only save on travelling but also on medical bills.</li>
+                        <li>Not all illnesses need hospitalization, but owing to lack of support at home, patients end up in nursing homes and hospitals for medical care. It is in those cases that the home visit doctor proves to be highly beneficial, as they can easily provide medical attention at home.</li>
+                        <li>The doctor on call service is available 24*7; hence, you are guaranteed quality healthcare even at odd hours and on any given day.</li>
+                        <li>Home visit doctors are a boon for old people, as they are the ones who need medical attention the most and are also the ones who have the most difficulty in travelling.</li>
+                        </p>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <!-- Start Our Process
+                ============================================= -->
+                <div class="process-area default-padding-bottom">
+                    <!-- Shape -->
+                    <div class="shape">
+                        <img src="{% static 'assets/img/shape/1.png' %}" alt="Shape">
+                    </div>
+                    <!-- End Shape -->
+                    <div class="container">
+                        <div class="process-items">
+                            <div class="row">
+                                <div class="col-lg-5 heading">
+                                    <h2>How to get a <br> consultation from us?</h2>
+                                    <p>
+                                        You can contact us directly and you can register yourself into our system and use our appointment scheduler and our team will get back to you immediately
+                                    </p>
+                                    <a class="btn btn-md btn-gradient" href="#">Full Process <i class="fas fa-angle-right"></i></a>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="process-items text-center">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 single-item">
+                                                <div class="item">
+                                                    <i class="flaticon-calendar-1"></i>
+                                                    <h5>Make Appointment</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 single-item">
+                                                <div class="item">
+                                                    <i class="flaticon-doctor"></i>
+                                                    <h5>Select Expert Doctor</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 single-item">
+                                                <div class="item">
+                                                    <i class="flaticon-heartbeat"></i>
+                                                    <h5>Confirm Consultation</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Our Process -->
+                <br/>
+                <br/>
+                <div class="row">
+                    <div class="col-lg left-info">
+                        <h2>What to expect from at-home doctor service</h2>
+                        <p>
+                        <li>The chief purpose is to provide primary diagnostics and, if and when needed, prescribe blood, urine and/or other tests. The entire service is designed to provide primary healthcare, post hospitalisation care and chronic disease management,as also allied services in the comfort of a patient’s home.</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg left-info">
+                        <h2>How to prepare for at-home doctor service</h2>
+                        <li>
+                            To help make your first doctor visit at home go smoothly here are a few pointers:
+                            <li>Give proper briefing about your medical history and current medical needs, to help the doctor make an accurate diagnosis and prescribe appropriate medication or the right course of action.</li>
+                            <li>Ask a family member to be present when the doctor visits to help answer all the questions.</li>
+                            <li>Keep all the prescriptions handy as you would need to show them to the doctor.</li><li>Have your regular or specialty doctor information handy.</li>
+                            <li>Also keep your hospital discharge papers ready, if any.</li>
+                            </li>Wear loose and comfortable clothing as the doctor might perform a comprehensive exam.</li>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Health Tips -->
 {% endblock %}
